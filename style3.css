@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  height: 100vh;
+}
+
+.col {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grande {
+  width: 500px;
+  height: 350px;
+}
+
+.pequena {
+  width: 90px;
+  height: 350px;
+}
+
+.texto {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.texto h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.texto p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
